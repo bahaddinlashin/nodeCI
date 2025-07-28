@@ -8,6 +8,9 @@ beforeEach(async ()=>{
     await page.goto("http://localhost:3000");
 });
 
+
+
+
 afterEach(async ()=>{
     await browser.close();
 })   
